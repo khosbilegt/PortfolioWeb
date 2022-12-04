@@ -1,0 +1,62 @@
+.navbar {
+     position: absolute;
+     top: 0;
+     width: 100%;
+     background-color: #900c3f;
+}
+
+ul {
+     margin: 0;
+     list-style: none;
+     text-align: center;
+     margin-left: 12%;
+     width: 75%;
+     display: flex;
+}
+
+ul a {
+     color: #ffc300;
+     text-shadow: 0.1px 0.1px #ff5733;
+     font-size: 18px;
+     width: 20%;
+     height: 40px;
+     transition: 300ms;
+     padding-top: 15px;
+}
+
+ul a:hover {
+     background-color: #581845;
+     color: #fff;
+}
+
+ul a {
+     text-decoration: none;
+}
+
+#active {
+     background-color: #581845;
+     color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+     ul {
+          width: 100%;
+     }
+     ul a {
+          width: 100px;
+     }
+}
+
+@media only screen and (max-width: 700px) {
+     ul {
+          margin-left: 0;
+          width: 100%;
+     }
+}
+/*
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/

@@ -1,0 +1,21 @@
+.Experience {
+     height: 100vh;
+     width: 100vw;
+}
+
+.experience-content {
+     margin-top: 55px;
+     height: calc(100vh - 55px);
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+}
+
+.experience-content p {
+     margin-top: 10px;
+}
+
+.experience-content h1 {
+     color: #ffc300;
+     text-shadow: 2px 2px #ff5733;
+}

@@ -1,0 +1,58 @@
+.None {
+     margin-top: 55px;
+     height: calc(100vh - 55px);
+     border: 0.01px solid #581845;
+}
+
+.none-content {
+     margin-top: 20vh;
+     margin-left: 25vw;
+     width: 50vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.none-content h1 {
+     text-align: center;
+     font-size: 100px;
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent; 
+     background-image: url(https://p4.wallpaperbetter.com/wallpaper/94/392/29/flower-1920x1080-colorful-wallpaper-preview.jpg);
+     margin: 0;
+}
+
+.none-content h2 {
+     font-size: 20px;
+     color: #fff;
+     margin: 25px 0 0 0;
+}
+
+.none-content h3 {
+     font-size: 15px;
+     font-style: italic;
+     font-weight: 400;
+     color: #fff;
+     margin: none;
+}
+
+.none-content a {
+     border-radius: 25px;
+     margin-top: 10px;
+     padding-top: 15px;
+     width: 250px;
+     height: 40px;
+     text-decoration: none;
+     transition: 300ms;
+     background-color: #900c3f;
+     border: 1px solid #900c3f;
+     text-shadow: 0.1px 0.1px #ff5733;
+     color: #ffc300;
+}
+
+.none-content a:hover {
+     color: #fff;
+     background-color: #581845;
+     border: 1px solid #900c3f;
+     background-image: none;
+}
